@@ -1,0 +1,89 @@
+body{
+    /* background-image: url(https://www.millennial.org/wp-content/uploads/2019/11/california-banner.jpg); */
+    background-repeat: no-repeat;
+     background-size: cover; 
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: goldenrod;
+}
+/* img{
+    border: 2px solid black;
+    padding: 2px;
+    width: 50%;
+} */
+.centerme{
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 2);
+}
+.videos{
+    display: flex;
+    margin-left: 25%
+}
+iframe{
+    border: 2px solid white;
+    padding: 2px;
+    margin-top: 1cap;
+    border-radius: 8px;
+}
+ol{
+    background-color: rgba(218, 165, 32, 0.685);
+    border: 2px solid white;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    width: auto;
+    display: flex;
+    border-radius: 4px;
+    
+}
+.common{
+    position: absolute;
+}
+.footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+    text-align: center;
+    /* background-color: rgba(0, 0, 255, 0.644); */
+    color: azure;
+}
+.header{
+    top: 0px;
+}
+.mainbody{
+    top: 400px;
+}
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80em;
+    margin-top: 10px;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 4px;
+}
+.center-image-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+h1 {
+    text-align: center;
+    color: goldenrod;
+    /* Add other styling as needed */
+}
